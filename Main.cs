@@ -27,7 +27,7 @@ namespace ContextualCover
             if (!player.IsInCover)
             {
                 inCover = false;
-                //GTA.UI.Screen.ShowHelpText("NOT", 1000, false, false);
+                GTA.UI.Screen.ShowHelpText("NOT", 1000, false, false);
             }
             if (player.HasCollided && !inCover)
             {
@@ -39,13 +39,17 @@ namespace ContextualCover
         public void onTick(object sender, EventArgs e)
         {
             Ped player = Game.Player.Character;
-            if (weaponOnly && player.Weapons.Current.Group != WeaponGroup.Unarmed)
+            if (player.IsOnFoot && player.IsInCombat)
             {
-                cover();
-            }
-            else if (!weaponOnly)
-            {
-                cover();
+                //GTA.UI.Screen.ShowHelpText("COMB", 1000);
+                if (weaponOnly && player.Weapons.Current.Group != WeaponGroup.Unarmed)
+                {
+                    cover();
+                }
+                else if (!weaponOnly)
+                {
+                    cover();
+                }
             }
         }
     }
