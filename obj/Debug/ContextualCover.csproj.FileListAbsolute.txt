@@ -1,0 +1,9 @@
+D:\Visual Studio\Repos\ContextualCover\bin\Debug\ContextualCover.dll
+D:\Visual Studio\Repos\ContextualCover\bin\Debug\ContextualCover.pdb
+D:\Visual Studio\Repos\ContextualCover\bin\Debug\ScriptHookVDotNet3.dll
+D:\Visual Studio\Repos\ContextualCover\bin\Debug\ScriptHookVDotNet3.xml
+D:\Visual Studio\Repos\ContextualCover\obj\Debug\ContextualCover.csproj.AssemblyReference.cache
+D:\Visual Studio\Repos\ContextualCover\obj\Debug\ContextualCover.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Repos\ContextualCover\obj\Debug\ContextualCover.csproj.CopyComplete
+D:\Visual Studio\Repos\ContextualCover\obj\Debug\ContextualCover.dll
+D:\Visual Studio\Repos\ContextualCover\obj\Debug\ContextualCover.pdb
