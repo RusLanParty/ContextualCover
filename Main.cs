@@ -39,7 +39,7 @@ namespace ContextualCover
         public void onTick(object sender, EventArgs e)
         {
             Ped player = Game.Player.Character;
-            if (player.IsOnFoot && player.IsInCombat)
+            if (player.IsOnFoot)
             {
                 //GTA.UI.Screen.ShowHelpText("COMB", 1000);
                 if (weaponOnly && player.Weapons.Current.Group != WeaponGroup.Unarmed)
